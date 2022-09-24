@@ -1,3 +1,13 @@
-//
-// Created by Petr Zámečník on 22.09.2022.
-//
+// Rectangle
+// Area = a * b
+// Circumference = 2*a + 2*b
+
+struct Rectangle {
+	int a;
+	int b;
+	
+	explicit Rectangle(int a, int b) {
+		this->a = a;
+		this->b = b;
+	}
+};
