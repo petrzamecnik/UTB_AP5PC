@@ -1,4 +1,4 @@
-namespace Calc {
+namespace calc {
 	double getArea(Rectangle rectangle) {
 		return rectangle.a * rectangle.b;
 	}

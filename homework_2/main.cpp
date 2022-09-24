@@ -3,11 +3,11 @@
 #include <math.h>
 #include "Rectangle.cpp"
 #include "Circle.cpp"
-#include "Calc.cpp"
+#include "calc.cpp"
 
 // namespaces
 using namespace std;
-using namespace Calc;
+using namespace calc;
 
 // constants
 const double pi = M_PI;
