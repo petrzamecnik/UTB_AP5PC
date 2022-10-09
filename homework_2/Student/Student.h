@@ -14,6 +14,10 @@ class FriendClass {
 };
 
 class Student {
+private:
+    int _id;
+    const char *_name;
+    int _birthYear;
 
 public:
     // example, with passing test for you, check Student.cpp for definition and test/test.cpp for test definition
@@ -40,6 +44,7 @@ public:
     // this function returns hash id of FriendClass (defined above)
     int getPrivateHashIdOfFriendClass(FriendClass &f);
 
+    
 };
 
 
