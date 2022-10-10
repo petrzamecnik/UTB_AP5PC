@@ -48,7 +48,7 @@ void Student::printName() {
 
 // TODO: implement this
 int Student::getPrivateHashIdOfFriendClass(FriendClass &f) {
-	return 0;
+	return f.hashId;
 }
 
 

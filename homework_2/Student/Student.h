@@ -10,6 +10,7 @@
 using namespace std;
 
 class FriendClass {
+	friend class Student;
     int hashId = 123456;
 };
 
